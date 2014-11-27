@@ -38,7 +38,8 @@
 	"icons": {
 	},
 	"symlinks": {
-		"vim/.*": "~",
-		"zsh/.zshrc": "~"
+		"vim/vimrc": "~",
+		"zsh/zshrc": "~",
+    "tmux/tmux.conf: "~"
 	}
 }
