@@ -1,0 +1,59 @@
+" Vundle Config
+set nocompatible    "required
+filetype off        "required
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Required
+Plugin 'gmarik/Vundle.vim'
+
+" Plugin 'mileszs/ack.vim'
+Plugin 'bufexplorer.zip'
+Plugin 'kien/cntrlp.vim'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-endwise'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'bronson/vim-trailing-whitespace'
+
+call vundle#end()           "required
+filetype plugin indent on   "required
+"End Vundle Config
+
+" Moves the .viminfo file out of the home directory
+set viminfo+=n~/.vim/viminfo
+
+:let mapleader = ","
+
+" Create mappings for opening and sourcing the vimrc file for fast editing
+:nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+:nnoremap <leader>sv :source $MYVIMRC<cr>
+
+"NERDTree Mapping
+:nmap <leader>n :NERDTreeToggle<CR>
+
+" Use jj to go back to normal mode
+imap jj <esc>
+
+:nnoremap <leader><leader>w :w<CR>
+:nnoremap <leader><leader>x :x<CR>
+:nnoremap <leader><leader>e :e<CR>
+:nnoremap <leader><leader>q :q<CR>
+
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+
+set nocompatible      " We're running Vim, not Vi!
+syntax on             " Enable syntax highlighting
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
+
+color codeschool
+set guifont=Monaco:h12
+set guioptions-=T " Removes top toolbar
+set guioptions-=r " Removes right hand scroll bar
+set cpoptions+=$ " puts a $ marker for the end of words/lines in cw/c$ commands

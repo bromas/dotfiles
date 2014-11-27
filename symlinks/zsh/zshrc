@@ -1,0 +1,35 @@
+# Place /usr/local/bin at from of path for homebrew
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+# Add rbenv and pyenv shims
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+source ~/.cider/antigen/antigen.zsh
+
+antigen use oh-my-zsh
+antigen bundles <<EOBUNDLES
+  git
+  ruby
+  rails
+  zsh-users/zsh-syntax-highlighting
+EOBUNDLES
+antigen theme bureau
+
+antigen apply
+
+# allows for alias useage in noninteractive shell
+setopt completealiases
+
+# source aliases
+export EDITOR="vim"
+export CLICOLOR="YES"
+export LSCOLORS=ExFxCxDxBxegedabagacad
+source $HOME/.cider/aliases/zshaliases.zsh
+source $HOME/.cider/aliases/gitaliases.zsh
+
+# Use privatezshrc to source nonpublic commands/aliases
+if [[ -a ~/.privatezshrc ]]
+then
+  source ~/.privatezshrc
+fi

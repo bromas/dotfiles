@@ -1,0 +1,44 @@
+{
+	"after-scripts": [
+	],
+	"casks": [
+		"charles",
+		"firefox",
+		"flash",
+		"github",
+		"gisto",
+		"heroku-toolbelt",
+		"keyboard-cleaner",
+		"mou",
+		"spotify",
+		"todoist",
+		"textmate",
+		"sizeup",
+		"transmission",
+		"virtualbox",
+		"vagrant",
+		"vagrant-manager",
+		"slack",
+		"dash",
+		"cloud"
+	],
+	"dependencies": {
+	},
+	"formulas": [
+		"caskroom/cask/brew-cask",
+		"git",
+		"gibo",
+		"pyenv-pip-rehash",
+		"rbenv",
+		"rbenv-gem-rehash",
+		"ruby-build",
+		"tmux",
+		"youtube-dl"
+	],
+	"icons": {
+	},
+	"symlinks": {
+		"vim/.*": "~",
+		"zsh/.zshrc": "~"
+	}
+}
