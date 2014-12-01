@@ -10,6 +10,7 @@ alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
 alias l='ls -la'
+alias whereami='curl http://remote-ip.herokuapp.com'
 
 chflags nohidden ~/Library
 
