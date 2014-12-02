@@ -2,25 +2,26 @@
   "after-scripts": [
   ],
   "casks": [
+    "alfred",
     "charles",
+    "cloud",
+    "dash",
     "firefox",
     "flash",
     "github",
-    "gisto",
     "heroku-toolbelt",
-    "keyboard-cleaner",
+    "iterm2",
     "mou",
     "spotify",
-    "todoist",
-    "textmate",
     "sizeup",
+    "slack",
+    "sourcetree",
+    "textmate",
+    "todoist",
     "transmission",
     "virtualbox",
     "vagrant",
-    "vagrant-manager",
-    "slack",
-    "dash",
-    "cloud"
+    "vagrant-manager"
   ],
   "dependencies": {
   },
@@ -34,7 +35,8 @@
     "rbenv-gem-rehash",
     "ruby-build",
     "tmux",
-    "youtube-dl"
+    "youtube-dl",
+    "zsh"
   ],
   "icons": {
   },
