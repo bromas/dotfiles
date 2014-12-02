@@ -14,7 +14,7 @@ antigen bundles <<EOBUNDLES
   rails
   zsh-users/zsh-syntax-highlighting
 EOBUNDLES
-antigen theme bureau
+antigen theme bromas/zsh-themes bromas
 
 antigen apply
 
