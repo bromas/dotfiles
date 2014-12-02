@@ -40,6 +40,6 @@
 	"symlinks": {
 		"vim/vimrc": "~",
 		"zsh/zshrc": "~",
-    "tmux/tmux.conf: "~"
+    "tmux/tmux.conf": "~"
 	}
 }
