@@ -15,6 +15,7 @@ alias neton='/usr/sbin/networksetup -setairportpower en0 on'
 alias netoff='/usr/sbin/networksetup -setairportpower en0 off'
 alias clearderiveddata='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias deriveddata='cd ~/Library/Developer/Xcode/DerivedData/'
+alias cider='cd ~/.cider'
 
 chflags nohidden ~/Library
 
