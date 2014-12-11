@@ -18,6 +18,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-markdown'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'ekalinin/Dockerfile.vim'
 
 call vundle#end()           "required
 filetype plugin indent on   "required
@@ -53,6 +54,7 @@ syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
+au BufRead,BufNewFile {Gemfile,Vagrantfile,Berksfile} set ft=ruby
 
 color codeschool
 set guifont=Monaco:h12

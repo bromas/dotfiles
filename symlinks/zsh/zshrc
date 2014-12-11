@@ -20,7 +20,7 @@ antigen apply
 
 # allows for alias useage in noninteractive shell
 setopt completealiases
-zstyle ':completion:*' '' matcher-list 'm:{a-z}={A-Z}'
+# zstyle ':completion:*' '' matcher-list 'm:{a-z}={A-Z}'
 
 # source aliases
 export EDITOR="vim"

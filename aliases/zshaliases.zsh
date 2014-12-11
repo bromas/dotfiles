@@ -15,7 +15,9 @@ alias neton='/usr/sbin/networksetup -setairportpower en0 on'
 alias netoff='/usr/sbin/networksetup -setairportpower en0 off'
 alias clearderiveddata='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias deriveddata='cd ~/Library/Developer/Xcode/DerivedData/'
-alias cider='cd ~/.cider'
+alias pluginvim='vim +PluginInstall +qall'
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+alias cider='vim ~/.cider && reload'
 
 chflags nohidden ~/Library
 
