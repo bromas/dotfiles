@@ -15,10 +15,12 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-endwise'
 Plugin 'pangloss/vim-javascript'
-Plugin 'tpope/vim-markdown'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'elzr/vim-json'
 
 call vundle#end()           "required
 filetype plugin indent on   "required
@@ -49,6 +51,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+let g:vim_markdown_folding_disabled=1
 set nocompatible      " We're running Vim, not Vi!
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection

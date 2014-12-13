@@ -17,7 +17,7 @@ alias clearderiveddata='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias deriveddata='cd ~/Library/Developer/Xcode/DerivedData/'
 alias pluginvim='vim +PluginInstall +qall'
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
-alias cider='vim ~/.cider && reload'
+alias cider='vim ~/.cider'
 
 chflags nohidden ~/Library
 
