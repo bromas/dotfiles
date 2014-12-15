@@ -21,9 +21,9 @@ alias gb='git branch'
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gunstage='grh'
+alias gunmodify='git checkout --'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
-
 
 # these alias ignore changes to file
 
