@@ -1,4 +1,4 @@
-# Place /usr/local/bin at from of path for homebrew
+# Place /usr/local/bin at front of path for homebrew
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # Add rbenv and pyenv shims
