@@ -28,6 +28,7 @@ export CLICOLOR="YES"
 export LSCOLORS=ExFxCxDxBxegedabagacad
 source $HOME/.cider/aliases/zshaliases.zsh
 source $HOME/.cider/aliases/gitaliases.zsh
+source $HOME/.cider/aliases/tmuxaliases.zsh
 
 # Use privatezshrc to source nonpublic commands/aliases
 if [[ -a ~/.privatezshrc ]]
